@@ -89,7 +89,7 @@ export default class X1intro extends Component {
       <ScrollView
         data-layer="bd71b7e5-af52-42b4-9627-aaa1adb29193"
         // style={styles.x1intro}
-        contentContainerStyle={[styles.x1intro]}>
+        contentContainerStyle={[styles.x1intro, {flex: 1}]}>
         <View
           data-layer="8447846e-0da3-4150-89f4-754c1ad44f0f"
           style={styles.x1intro_x56}>
@@ -788,7 +788,7 @@ const styles = StyleSheet.create({
     width: 345,
     height: 71, // original 65
     left: 24,
-    top: 738,
+    top: 700, // original 738
   },
   x1intro_xc3bbb4f2: {
     opacity: 1,
@@ -811,7 +811,7 @@ const styles = StyleSheet.create({
     width: 90, // original 85
     height: 28, // original 26
     left: 154,
-    top: 758,
+    top: 720, // original 758
   },
   x1intro_x1: {
     opacity: 1,
